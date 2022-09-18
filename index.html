@@ -1,0 +1,391 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Dự án mẫu</title>
+    <link rel="stylesheet" href="/css/style.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Oswald:wght@200;700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+  </head>
+  <body>
+    <div class="container">
+      <header class="header">
+        <div class="main">
+          <div class="login_signup">
+            <a href="#">Đăng nhập / Đăng kí</a>
+          </div>
+          <label for="nav-input" class="nav-btn">
+            <i class="bx bx-menu"></i>
+          </label>
+          <input type="checkbox" hidden name="" class="nav-input" id="nav-input">
+          <div class="main_mobile-nav">
+            <label for="" class="nav_mobile-close">
+              <i class="bx bx-x"></i>
+            </label>
+            <ul class="ul_nav-mobile">
+              <li class="li_nav-mobile"><a href="">Trang chủ</a></li>
+              <li class="li_nav-mobile"><a href="">Giới thiệu</a></li>
+              <li class="li_nav-mobile"><a href="">Sản phẩm</a></li>
+              <li class="li_nav-mobile"><a href="">Phụ kiện khác</a></li>
+              <li class="li_nav-mobile"><a href="">Tin tức</a></li>
+              <li class="li_nav-mobile"><a href="">Liên hệ</a></li>
+              <li class="li_nav-mobile"><a href="">Đăng kí / Đăng nhập</a></li>
+            </ul>
+          </div>
+          <label for="nav-input" class="nav-overlay"> </label>
+
+          <div class="logo">
+            <img src="img/logo-mona.png" alt="" />
+          </div>
+          <div class="cart">
+            <span>Giỏ hàng</span>
+            <i class="bx bx-cart-alt"></i>
+          </div>
+        </div>
+      </header>
+      <nav>
+        <div class="main-nav">
+          <ul class="ul_nav-pc">
+            <li class="li_nav-pc"><a href="">Trang chủ</a></li>
+            <li class="li_nav-pc"><a href="">Giới thiệu</a></li>
+            <li class="li_nav-pc"><a href="">Sản phẩm</a></li>
+            <li class="li_nav-pc"><a href="">Phụ kiện khác</a></li>
+            <li class="li_nav-pc"><a href="">Tin tức</a></li>
+            <li class="li_nav-pc"><a href="">Liên hệ</a></li>
+          </ul>
+        </div>
+      </nav>
+      <div class="banner">
+        <div class="slider">
+          <input type="radio" name="input-silder" id="img1" />
+          <input type="radio" name="input-silder" id="img2" />
+          <input type="radio" name="input-silder" id="img3" />
+          <img src="img/img2.jpg" alt="img2" class="img-slide2" />
+          <img src="img/img1.jpg" alt="img1" class="img-slide1" />
+          <img src="img/img3.jpg" alt="img3" class="img-slide3" />
+        </div>
+        <div class="labels-silder">
+          <label for="img1"></label>
+          <label for="img2"></label>
+          <label for="img3"></label>
+        </div>
+      </div>
+      <div class="layout" id="10">
+        <a href="" data-aos="fade-right"
+          ><div>
+            <img src="img/title_block_03.png" alt="" class="title" />
+            <img src="img/sp2.jpg" alt="" class="product" />
+            <button class="btn">Thêm vào giỏ hàng</button>
+          </div></a
+        >
+        <a href="" data-aos="fade-up">
+          <div>
+            <img src="img/title_block_05.png" alt="" class="title" />
+            <img src="img/sp1.jpg" alt="" class="product" />
+            <button class="btn">Thêm vào giỏ hàng</button>
+          </div></a
+        >
+        <a href="" data-aos="fade-left"
+          ><div>
+            <img src="img/title_block_07.png" alt="" class="title" />
+            <img src="img/sp3.jpg" alt="" class="product" />
+            <button class="btn">Thêm vào giỏ hàng</button>
+          </div></a
+        >
+      </div>
+      <div class="tabs">
+        <div class="tabs-nav">
+          <a href="#1"> SẢN PHẨM MỚI </a>
+          <a href="#2"> SẢN PHẨM BÁN CHẠY </a>
+          <a href="#3"> SẢN PHẨM PHỔ BIẾN </a>
+        </div>
+        <div class="tabs-layout">
+          <div id="1" data-aos="fade-up">
+            <h1 class="layout-title">Sản phẩm mới</h1>
+            <div class="items">
+              <div class="items-content">
+                <img src="img/img1 (4).jpg" alt="" />
+                <p class="items-content_title">Chuck Taylor classic</p>
+                <p class="items-content_price">1,250,000 <u>đ</u></p>
+                <button class="btn">Thêm vào giỏ hàng</button>
+              </div>
+              <div class="items-content">
+                <img src="img/img1 (5).jpg" alt="" />
+                <p class="items-content_title">Chuck Taylor classic</p>
+                <p class="items-content_price">1,250,000 <u>đ</u></p>
+                <button class="btn">Thêm vào giỏ hàng</button>
+              </div>
+              <div class="items-content">
+                <img src="img/img1 (6).jpg" alt="" />
+                <p class="items-content_title">Chuck Taylor classic</p>
+                <p class="items-content_price">1,250,000 <u>đ</u></p>
+                <button class="btn">Thêm vào giỏ hàng</button>
+              </div>
+              <div class="items-content">
+                <img src="img/img1 (7).jpg" alt="" />
+                <p class="items-content_title">Chuck Taylor classic</p>
+                <p class="items-content_price">1,250,000 <u>đ</u></p>
+                <button class="btn">Thêm vào giỏ hàng</button>
+              </div>
+            </div>
+          </div>
+          <div id="2" data-aos="fade-up">
+            <h1 class="layout-title">Sản phẩm bán chạy</h1>
+
+            <div class="items">
+              <div class="items-content">
+                <img src="img/img1 (8).jpg" alt="" />
+                <p class="items-content_title">One Start the Progress</p>
+                <p class="items-content_price">1,800,000 <u>đ</u></p>
+                <button class="btn">Thêm vào giỏ hàng</button>
+              </div>
+              <div class="items-content">
+                <img src="img/img1 (9).jpg" alt="" />
+                <p class="items-content_title">One Start the Progress</p>
+                <p class="items-content_price">1,800,000 <u>đ</u></p>
+                <button class="btn">Thêm vào giỏ hàng</button>
+              </div>
+              <div class="items-content">
+                <img src="img/img1 (10).jpg" alt="" />
+                <p class="items-content_title">One Start the Progress</p>
+                <p class="items-content_price">1,800,000 <u>đ</u></p>
+                <button class="btn">Thêm vào giỏ hàng</button>
+              </div>
+              <div class="items-content">
+                <img src="img/img1 (12).jpg" alt="" />
+                <p class="items-content_title">One Start the Progress</p>
+                <p class="items-content_price">1,800,000 <u>đ</u></p>
+                <button class="btn">Thêm vào giỏ hàng</button>
+              </div>
+            </div>
+          </div>
+          <div id="3" data-aos="fade-up">
+            <h1 class="layout-title">Sản phẩm phổ biến</h1>
+            <div class="items">
+              <div class="items-content">
+                <img src="img/img1 (13).jpg" alt="" />
+                <p class="items-content_title">One Start the Progress</p>
+                <p class="items-content_price">1,800,000 <u>đ</u></p>
+                <button class="btn">Thêm vào giỏ hàng</button>
+              </div>
+              <div class="items-content">
+                <img src="img/img1 (14).jpg" alt="" />
+                <p class="items-content_title">One Start the Progress</p>
+                <p class="items-content_price">1,800,000 <u>đ</u></p>
+                <button class="btn">Thêm vào giỏ hàng</button>
+              </div>
+              <div class="items-content">
+                <img src="img/img1 (15).jpg" alt="" />
+                <p class="items-content_title">One Start the Progress</p>
+                <p class="items-content_price">1,800,000 <u>đ</u></p>
+                <button class="btn">Thêm vào giỏ hàng</button>
+              </div>
+              <div class="items-content">
+                <img src="img/img1 (6).jpg" alt="" />
+                <p class="items-content_title">Chuck Taylor classic</p>
+                <p class="items-content_price">1,250,000 <u>đ</u></p>
+                <button class="btn">Thêm vào giỏ hàng</button>
+              </div>
+            </div>
+            <div class="back-top-top">
+              <a href="#10"><i class="bx bx-up-arrow-alt"></i></a>
+            </div>
+          </div>
+
+          <div data-aos="fade-up">
+            <h1 class="layout-title bar">Phụ kiện khác</h1>
+            <div class="items">
+              <div class="items-content">
+                <img src="img/img1 (16).jpg" alt="" />
+                <p class="items-content_title">One Start the Progress</p>
+                <p class="items-content_price">1,800,000 <u>đ</u></p>
+                <button class="btn">Thêm vào giỏ hàng</button>
+              </div>
+              <div class="items-content">
+                <img src="img/img1 (17).jpg" alt="" />
+                <p class="items-content_title">One Start the Progress</p>
+                <p class="items-content_price">1,800,000 <u>đ</u></p>
+                <button class="btn">Thêm vào giỏ hàng</button>
+              </div>
+              <div class="items-content">
+                <img src="img/img1 (18).jpg" alt="" />
+                <p class="items-content_title">One Start the Progress</p>
+                <p class="items-content_price">1,800,000 <u>đ</u></p>
+                <button class="btn">Thêm vào giỏ hàng</button>
+              </div>
+              <div class="items-content">
+                <img src="img/img1 (19).jpg" alt="" />
+                <p class="items-content_title">Chuck Taylor classic</p>
+                <p class="items-content_price">1,250,000 <u>đ</u></p>
+                <button class="btn">Thêm vào giỏ hàng</button>
+              </div>
+              <div class="items-content">
+                <img src="img/img1 (21).jpg" alt="" />
+                <p class="items-content_title">One Start the Progress</p>
+                <p class="items-content_price">1,800,000 <u>đ</u></p>
+                <button class="btn">Thêm vào giỏ hàng</button>
+              </div>
+              <div class="items-content">
+                <img src="img/img1 (22).jpg" alt="" />
+                <p class="items-content_title">One Start the Progress</p>
+                <p class="items-content_price">1,800,000 <u>đ</u></p>
+                <button class="btn">Thêm vào giỏ hàng</button>
+              </div>
+              <div class="items-content">
+                <img src="img/img1 (23).jpg" alt="" />
+                <p class="items-content_title">One Start the Progress</p>
+                <p class="items-content_price">1,800,000 <u>đ</u></p>
+                <button class="btn">Thêm vào giỏ hàng</button>
+              </div>
+              <div class="items-content">
+                <img src="img/img1 (24).jpg" alt="" />
+                <p class="items-content_title">Chuck Taylor classic</p>
+                <p class="items-content_price">1,250,000 <u>đ</u></p>
+                <button class="btn">Thêm vào giỏ hàng</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="banner2" style="background-image: url(img/banner2.jpg)">
+        <div>
+          <!-- <img src="img/banner2.jpg" alt=""> -->
+          <p>KHUYỄN MÃI <span>GIẢM GIÁ 50%</span></p>
+        </div>
+      </div>
+      <div class="tabs">
+        <div class="tabs-layout" data-aos="fade-up">
+          <div>
+            <h1 class="layout-title bar">Sản phẩm giảm giá</h1>
+            <div class="items">
+              <div class="items-content">
+                <span>-30%</span>
+                <img src="img/img1 (26).jpg" alt="" />
+                <p class="items-content_title">One Start the Progress</p>
+                <p class="items-content_price">
+                  <del>1,500,000đ</del> 1,005,000 <u>đ</u>
+                </p>
+                <button class="btn">Thêm vào giỏ hàng</button>
+              </div>
+              <div class="items-content">
+                <span>-30%</span>
+                <img src="img/img1 (27).jpg" alt="" />
+                <p class="items-content_title">One Start the Progress</p>
+                <p class="items-content_price">
+                  <del>1,500,000đ</del> 1,005,000 <u>đ</u>
+                </p>
+                <button class="btn">Thêm vào giỏ hàng</button>
+              </div>
+              <div class="items-content">
+                <span>-30%</span>
+                <img src="img/img1 (28).jpg" alt="" />
+                <p class="items-content_title">One Start the Progress</p>
+                <p class="items-content_price">
+                  <del>1,500,000đ</del> 1,005,000 <u>đ</u>
+                </p>
+                <button class="btn">Thêm vào giỏ hàng</button>
+              </div>
+              <div class="items-content">
+                <span>-30%</span>
+                <img src="img/img1 (29).jpg" alt="" />
+                <p class="items-content_title">Chuck Taylor classic</p>
+                <p class="items-content_price">
+                  <del>1,500,000đ</del> 1,005,000 <u>đ</u>
+                </p>
+                <button class="btn">Thêm vào giỏ hàng</button>
+              </div>
+              <div class="items-content">
+                <span>-30%</span>
+                <img src="img/img1 (30).jpg" alt="" />
+                <p class="items-content_title">One Start the Progress</p>
+                <p class="items-content_price">
+                  <del>1,500,000đ</del> 1,005,000 <u>đ</u>
+                </p>
+                <button class="btn">Thêm vào giỏ hàng</button>
+              </div>
+              <div class="items-content">
+                <span>-30%</span>
+                <img src="img/img1 (31).jpg" alt="" />
+                <p class="items-content_title">One Start the Progress</p>
+                <p class="items-content_price">
+                  <del>1,500,000đ</del> 1,005,000 <u>đ</u>
+                </p>
+                <button class="btn">Thêm vào giỏ hàng</button>
+              </div>
+              <div class="items-content">
+                <span>-30%</span>
+                <img src="img/img1 (32).jpg" alt="" />
+                <p class="items-content_title">One Start the Progress</p>
+                <p class="items-content_price">
+                  <del>1,500,000đ</del> 1,005,000 <u>đ</u>
+                </p>
+                <button class="btn">Thêm vào giỏ hàng</button>
+              </div>
+              <div class="items-content">
+                <span>-30%</span>
+                <img src="img/img1 (33).jpg" alt="" />
+                <p class="items-content_title">One Start the Progress</p>
+                <p class="items-content_price">
+                  <del>1,500,000đ</del> 1,005,000 <u>đ</u>
+                </p>
+                <button class="btn">Thêm vào giỏ hàng</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <footer>
+        <div class="footer-content">
+          <div class="footer-content-items">
+            <h3>Giới thiệu</h3>
+            <p>
+              Chào mừng bạn đến với ngôi nhà Converse! Tại đây, mỗi một dòng
+              chữ, mỗi chi tiết và hình ảnh đều là những bằng chứng mang dấu ấn
+              lịch sử Converse 100 năm, và đang không ngừng phát triển lớn mạnh.
+            </p>
+          </div>
+          <div class="footer-content-items">
+            <h3>Địa chỉ</h3>
+            <p><i class="bx bx-map-pin"></i> Cao đăng FPT</p>
+            <p><i class="bx bx-phone-call"></i>0979048136</p>
+            <p><i class="bx bx-envelope"></i>nhogiang03tg@gmail.com</p>
+          </div>
+
+          <div class="footer-content-items">
+            <h3>Mạng xã hội</h3>
+            <div class="footer-content-icons">
+              <p><i class="bx bxl-facebook-circle"></i></p>
+              <p><i class="bx bxl-github"></i></p>
+              <p><i class="bx bxl-instagram"></i></p>
+              <p><i class="bx bxl-twitter"></i></p>
+            </div>
+          </div>
+        </div>
+        <div class="footer-sigup">
+          <h3>ĐĂNG KÍ THÔNG TIN</h3>
+          <form action="" method="post" class="sigup">
+            <input type="text" name="" id="" placeholder="Email...." />
+            <button>ĐĂNG KÍ</button>
+          </form>
+        </div>
+      </footer>
+    </div>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init({
+        duration: 700,
+        delay: 500,
+        easing: "ease-in-out",
+      });
+    </script>
+  </body>
+</html>
